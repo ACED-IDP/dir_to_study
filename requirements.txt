@@ -1,0 +1,6 @@
+# CLI processor
+click
+# faster json
+orjson  # ~=3.8.3
+# for mime types
+python-magic
