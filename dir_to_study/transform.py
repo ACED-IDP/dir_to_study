@@ -77,7 +77,7 @@ def _extract_fhir_resources(file):
               default='**/*',
               show_default=True,
               help='File names to match.')
-def _transform(project_id, input_path, output_path, pattern):
+def cli(project_id, input_path, output_path, pattern):
     """Transform ResearchStudy, DocumentReference from matching files in input path."""
     transform(project_id, input_path, output_path, pattern)
 
@@ -150,4 +150,4 @@ def transform(project_id, input_path, output_path, pattern):
 
 
 if __name__ == '__main__':
-    transform()
+    cli()

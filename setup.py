@@ -123,7 +123,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'dir_to_study = dir_to_study.transform:transform'
+            'dir_to_study = dir_to_study.transform:cli'
         ],
     },
 
